@@ -10,7 +10,7 @@ For my project I needed a much simpler facial recognition without visual feedbac
 2. A camera module: I used the [Raspberry Pi Noir camera V2.](https://www.amazon.de/Raspberry-Pi-V2-1-1080P-Kamera-Modul/dp/B01ER2SKFS)
     Check how to get the video from your camera if you are using a different one and adjust the sizes in doorbell_new_face.py accordingly
 
-If you are not sure how to plug everything in and set up your Jetson Nano I recommend [this link](https://medium.com/@ageitgey/build-a-face-recognition-system-for-60-with-the-new-nvidia-jetson-nano-2gb-and-python-46edbddd7264) to get everything right (that tutorial also follows the following steps on how to get the librabries in greater detail)
+If you are not sure how to plug everything in and set up your Jetson Nano I recommend [this link](https://medium.com/@ageitgey/build-a-face-recognition-system-for-60-with-the-new-nvidia-jetson-nano-2gb-and-python-46edbddd7264) to get everything right (that tutorial also follows the following steps on how to get the libraries in greater detail)
 
 
 ### Installing required libraries
@@ -34,4 +34,4 @@ You can make adjustments to the quality of the recognition in *line 84*
 
 ## doorbell_existing_faces.py
 Only loads, checks and executes code from the known_faces.dat
-Add the code you want to run when it recognises to *line 83*
+Add the code you want to run when it recognizes to *line 83*
